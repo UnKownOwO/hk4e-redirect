@@ -1,0 +1,2 @@
+# hk4e-redirect
+用于解决sdk和dispatch不同的代理问题

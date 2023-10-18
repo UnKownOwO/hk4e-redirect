@@ -1,0 +1,13 @@
+http_port = 443
+cert_path = "./key/server.pem"
+key_path = "./key/server.key"
+
+[logger]
+level = "DEBUG"
+mode = "CONSOLE"
+track = true
+max_size = 10485760
+
+[redirect]
+dispatch_url = "http://hk4e:8080"
+sdk_url = "https://hk4e"
